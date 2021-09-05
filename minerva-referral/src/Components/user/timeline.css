@@ -1,0 +1,70 @@
+/* .MuiTimeline-root{
+    display: flex !important;
+ 
+} */
+.MuiTimelineSeparator-root{
+    display: flex !important;
+    flex:0 !important;
+    flex-direction: column !important;
+    align-content: center !important;
+}
+.MuiTimelineItem-missingOppositeContent:before {
+    display: none;
+}
+
+.MuiTimelineContent-root{
+    justify-content: left;
+    align-items: baseline;
+    flex: unset !important;
+    padding: 0;
+}
+.MuiTimelineItem-root{
+    /* display: unset !important; */
+}
+.MuiTimelineDot-defaultGrey{
+    color: black;
+}
+.MuiTimelineDot-outlinedGrey{
+    margin-left: 25px !important;
+}
+
+.timeline_dot{
+    color: black;
+    background-color:var(--main-color) ;
+    margin-left: 18px !important;
+}
+
+.MuitimelineConnector-root{
+    background-color:#eee !important;
+    z-index: 100;
+   
+}
+.separator_padding{
+    padding-left: 18px !important;
+}
+.timelineDotHeader{
+    color: black !important;
+    border-color: #325ea8 !important;
+   font-size: x-small!important;
+   padding: 10px !important;
+   margin-left: 18px !important;
+   
+}
+.timeline_content{
+    padding-top: 0px;
+
+}
+.title{
+    font-weight:bolder ;
+}
+.timelineItem_text {
+    font-size: 0.8em;
+    font-weight: 400 !important;
+    
+}
+
+.MuiTimelineDot-root{
+    display: flex;
+    align-items: center !important;
+    margin-left: 28px  !important;
+}
